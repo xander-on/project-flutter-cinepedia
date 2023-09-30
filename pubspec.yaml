@@ -28,10 +28,17 @@ dev_dependencies:
   isar_generator: ^3.1.0+1
   build_runner: ^2.4.3
   youtube_player_flutter: ^8.1.2
+  flutter_launcher_icons: ^0.13.1
+
+#app_icon
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
 
 flutter:
   uses-material-design: true
 
   assets:
     - .env
-    - assets/loaders/
+    - assets/
